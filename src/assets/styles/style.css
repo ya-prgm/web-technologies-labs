@@ -2,10 +2,116 @@
 @import "./fonts.css";
 @import "./utils.css";
 
-.test {
-    color: yellow !important;
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
 }
 
-.test {
-    color: red !important;
+.main-title {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.contact-title {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input-field {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    padding: 10px 14px;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-field:focus {
+    opacity: 0.8;
+}
+
+.submit-button {
+    background: linear-gradient(90deg, #4A75E6, #8C55E9);
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.submit-button:hover {
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.4);
+    transform: translateY(-2px);
+}
+
+.contact-form {
+    background-image: url('../img/fon2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 480px;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+    color: #1F3F68;
+    font-weight: 500;
+}
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    background: linear-gradient(to bottom, #EBF1F5, #D2DEE6);
+    border-radius: 0 20px 20px 0;
+    overflow: hidden;
+    width: fit-content;
+}
+
+.breadcrumbs-item {
+    padding: 10px 24px;
+    border-radius: 0 20px 20px 0;
+    border-right: 2px solid #FFFFFF;
+    box-shadow: 2px 0 3px rgba(0, 0, 0, 0.15);
+}
+
+.breadcrumbs-item a {
+    color: #1F3F68;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.breadcrumbs-item a:hover {
+    text-decoration: underline;
 }
